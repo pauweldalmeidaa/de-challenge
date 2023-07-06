@@ -1,0 +1,4 @@
+1,Rahul,Dravid-10000
+2,Virat,Kohli-20000
+3,MS,Dhoni,27000
+4,Dinesh,Karthik,18000
