@@ -1,0 +1,21 @@
+[run]
+branch = True
+omit =
+    src/**/__version__.py
+    src/**/__init__.py
+    if __name__ == .__main__.:
+    *.pyc
+[report]
+exclude_lines =
+    # Have to re-enable the standard pragma
+    pragma: no cover
+    # Don't complain if tests don't hit defensive assertion code:
+    raise AssertionError
+    raise NotImplementedError
+    except BaseException as e:
+    def get_key
+    def lambda_handler(event, _):
+    raise e
+    if __name__ == .__main__.:
+
+ignore_errors = True
