@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
 
-import pytest
+from src.s2_q1 import fonction
 
-from src import s2_q1
+def test_answer():
+    assert fonction(['A','B','C']) == [A1', 'B1', 'C1', 'A2', 'B2', 'C2', 'A3', 'B3', 'C3']
